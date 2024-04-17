@@ -12,7 +12,7 @@ pub mod questions {
         /// b) Proof-of-Stake
         /// c) Proof-of-History (PoH)
         /// d) Sealevel
-        'x'
+        'c'
     }
     pub fn question_2() -> char {
         /// Which statement best describes the nature of PoH in relation to its production and verification?
@@ -21,7 +21,7 @@ pub mod questions {
         /// b) PoH is difficult to produce and difficult to verify.
         /// c) PoH is easy to produce and easy to verify.
         /// d) PoH is difficult to produce but easy to verify.
-        'x'
+        'c'
     }
     /// -------------------------------------------------------------------------------------------
     /// Tower BFT
@@ -33,7 +33,7 @@ pub mod questions {
         /// b) 400ms
         /// c) 54 years
         /// d) 32 minutes
-        'x'
+        'b'
     }
     pub fn question_4() -> char {
         /// In the context of Solana's TBFT, what action takes place when a leader seems to have failed?
@@ -42,7 +42,7 @@ pub mod questions {
         /// b) A new consensus round starts.
         /// c) The protocol halts until the leader returns.
         /// d) PoH counters are reset.
-        'x'
+        'b'
     }
     /// -------------------------------------------------------------------------------------------
     /// Turbine
@@ -54,7 +54,7 @@ pub mod questions {
         /// b) Time needed for block propagation
         /// c) Time needed for consensus voting
         /// d) Time needed for PoH validation
-        'x'
+        'b'
     }
     pub fn question_6() -> char {
         /// How are nodes in the network organized in the Turbine protocol?
@@ -63,7 +63,7 @@ pub mod questions {
         /// b) Into shreds
         /// c) Into neighborhoods
         /// d) Into clusters
-        'x'
+        'b'
     }
     pub fn question_7() -> char {
         /// Which of the following describes how propagation priority is determined in Turbine?
@@ -84,7 +84,7 @@ pub mod questions {
         /// b) A memory pool solution for storing processed transactions
         /// c) A protocol for communication overhead reduction
         /// d) A protocol to speed up consensus decision
-        'x'
+        'a'
     }
     pub fn question_9() -> char {
         /// What is the primary role of the mempool in traditional blockchains?
@@ -93,7 +93,7 @@ pub mod questions {
         /// b) Reserve memory for block processing
         /// c) Store transactions that have been added to the blockchain
         /// d) Store transactions being broadcasted but not yet processed
-        'x'
+        'd'
     }
     /// -------------------------------------------------------------------------------------------
     /// Sealevel
@@ -105,7 +105,7 @@ pub mod questions {
         /// b) It describes all the states required to read and write to.
         /// c) It uses proof of stake consensus.
         /// d) It was designed that way from inception.
-        'x'
+        'b'
     }
     /// -------------------------------------------------------------------------------------------
     /// Pipelining
@@ -117,7 +117,7 @@ pub mod questions {
         /// b) To optimize block sharing.
         /// c) To validate and execute transactions quickly before receiving another block.
         /// d) To integrate with other blockchain networks.
-        'x'
+        'c'
     }
 
     pub fn question_12() -> char {
@@ -127,7 +127,7 @@ pub mod questions {
         /// b) Encryption of data using the GPU.
         /// c) Change of the state using CPU (banking).
         /// d) Write to the disk in kernel space and send out via network card (I/O).
-        'x'
+        'b'
     }
     /// -------------------------------------------------------------------------------------------
     /// Cloudbreak
@@ -139,7 +139,7 @@ pub mod questions {
         /// b) Processor speed.
         /// c) Network connectivity.
         /// d) GPU acceleration.
-        'x'
+        'c'
     }
     pub fn question_14() -> char {
         /// How does Cloudbreak handle data storage?
@@ -148,7 +148,7 @@ pub mod questions {
         /// b) It makes use of memory-mapped files.
         /// c) It prioritizes CPU storage over disk storage.
         /// d) It employs traditional databases for optimized reading and writing.
-        'x'
+        'b'
     }
     /// -------------------------------------------------------------------------------------------
     /// Archivers
@@ -160,7 +160,7 @@ pub mod questions {
         /// b) By centralizing the storage into a single hub.
         /// c) By creating multiple copies of the Solana blockchain.
         /// d) By splitting into small pieces and replicating the data multiple times.
-        'x'
+        'd'
     }
 }
 
